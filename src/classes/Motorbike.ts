@@ -1,7 +1,6 @@
 
 import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
-import Car from './Car.js';
 
 
 class Motorbike extends Vehicle {
@@ -38,6 +37,10 @@ class Motorbike extends Vehicle {
     } else {
       this.wheels = wheels;
     }
+  }
+
+  wheelie(): void {
+    console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
   }
 
   override printDetails(): void {
