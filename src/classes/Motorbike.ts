@@ -1,10 +1,10 @@
-// Importing Vehicle and Wheel classes
+
 import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
 import Car from './Car.js';
 
-// TODO: The Motorbike class should extend the Vehicle class
-class Motorbike extends Vehicle, Car {
+
+class Motorbike extends Vehicle {
   vin: string;
   color: string;
   make: string;
@@ -57,6 +57,8 @@ class Motorbike extends Vehicle, Car {
       `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
     );
   }
+}
+export default Motorbike;
 
   // TODO: Declare properties of the Motorbike class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
@@ -74,7 +76,4 @@ class Motorbike extends Vehicle, Car {
   // TODO: The method should call the printDetails method of the parent class
   // TODO: The method should log the details of the Motorbike
   // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
-}
-
 // Export the Motorbike class as the default export
-export default Motorbike;
