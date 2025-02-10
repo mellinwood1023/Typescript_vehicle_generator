@@ -78,7 +78,6 @@ class Truck extends Vehicle implements AbleToTow {
     }
 }
 
-
 export default Truck;
 
   // TODO: Declare properties of the Truck class
