@@ -287,11 +287,11 @@ class Cli {
         },
       ])
       .then((answers) => {
-        const vehicleToTow = answers.vehicleToTow;
+        const vehicleToTow = answers.vehicle;
         if (vehicleToTow === Truck) {
           console.log('Truck cannot tow itself');
         } else {
-          console.log(`Truck is towing ${vehicleToTow}`);
+          console.log(`Truck is towing ${answers.vehicleToTow}`);
         }
         this.performActions();
 
