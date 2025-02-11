@@ -32,6 +32,7 @@
 ## Credits
 
 Would like to give credit to the TA's and my peers - every piece of advice and input helps! 
+Special shout out to Matt and Clinton for the peer review and debugging help! 
 
 ## License
 
