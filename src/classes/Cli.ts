@@ -261,7 +261,6 @@ class Cli {
         this.vehicles.push(motorbike);
         this.selectedVehicleVin = motorbike.vin;
         this.performActions();
-   
       });
   }
 

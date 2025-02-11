@@ -31,7 +31,7 @@
 
 ## Credits
 
-
+Would like to give credit to the TA's and my peers - every piece of advice and input helps! 
 
 ## License
 
