@@ -291,7 +291,7 @@ class Cli {
         if (vehicleToTow === Truck) {
           console.log('Truck cannot tow itself');
         } else {
-          console.log(`Truck is towing ${answers.vehicleToTow}`);
+          console.log(`Truck is towing.`);
         }
         this.performActions();
 
